@@ -24,3 +24,4 @@ A minimal, responsive, printable résumé web page starter. Edit `index.html` an
 
 ## License
 MIT — see `LICENSE`.
+# bal
