@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Name — Résumé</title>
+    <meta name="description" content="Résumé for Your Name" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <div>
+          <h1>Your Name</h1>
+          <p class="subtitle">Your Title / Role</p>
+        </div>
+        <div class="contact">
+          <a href="mailto:you@example.com">you@example.com</a>
+          <span>•</span>
+          <a href="https://your-website.example" target="_blank" rel="noreferrer">your-website.example</a>
+          <span>•</span>
+          <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noreferrer">LinkedIn</a>
+          <span>•</span>
+          <a href="https://github.com/your-handle" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+        <button id="print-btn" class="print-btn" aria-label="Print résumé">Print</button>
+      </header>
+
+      <section>
+        <h2>Summary</h2>
+        <p>
+          Brief summary statement highlighting your expertise, impact, and interests.
+          Keep it concise and specific to roles you are targeting.
+        </p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <article class="item">
+          <header>
+            <h3>Company Name — Role Title</h3>
+            <div class="meta">
+              <span>Location</span>
+              <span>•</span>
+              <span>YYYY – YYYY</span>
+            </div>
+          </header>
+          <ul>
+            <li>Key accomplishment or responsibility with measurable impact.</li>
+            <li>Another notable contribution, toolset, or collaboration.</li>
+            <li>Optional: technology stack in parentheses (React, Node, AWS).</li>
+          </ul>
+        </article>
+        <article class="item">
+          <header>
+            <h3>Company Name — Role Title</h3>
+            <div class="meta">
+              <span>Location</span>
+              <span>•</span>
+              <span>YYYY – YYYY</span>
+            </div>
+          </header>
+          <ul>
+            <li>Achievement 1</li>
+            <li>Achievement 2</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="columns">
+        <div>
+          <h2>Education</h2>
+          <p>
+            Degree, Major — School Name (YYYY)
+          </p>
+        </div>
+        <div>
+          <h2>Skills</h2>
+          <ul class="tags">
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>CSS</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <div class="projects">
+          <article>
+            <h3>Project Name</h3>
+            <p>One-line description of what the project does and your role.</p>
+            <a href="#" target="_blank" rel="noreferrer">Link</a>
+          </article>
+          <article>
+            <h3>Project Name</h3>
+            <p>One-line description of what the project does and your role.</p>
+            <a href="#" target="_blank" rel="noreferrer">Link</a>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Your Name</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
